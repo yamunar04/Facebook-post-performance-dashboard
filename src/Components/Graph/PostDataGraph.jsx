@@ -45,8 +45,13 @@ const PostDataGraph = () => {
             </div>
             <div className='graph-section'>
                 <div className='upper-graph'>
-                    <Actions className='upper-graph-section1' selectedPostId={selectedPostId} />
-                    <AgeGraph className='upper-graph-section2' selectedPostId={selectedPostId} />
+                    <div className='upper-graph-1'>
+                        <Actions className='upper-graph-section1' selectedPostId={selectedPostId} />
+                    </div>
+                    <div className='upper-graph-2'>
+                        <AgeGraph className='upper-graph-section2' selectedPostId={selectedPostId} />
+                    </div>
+
                 </div>
                 <div className='lower-graph'>
                     <ReachGraph selectedPostId={selectedPostId} />

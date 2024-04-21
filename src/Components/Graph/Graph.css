@@ -55,7 +55,7 @@
   .graph-section{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    padding: 2rem;   
   }
   .upper-graph{
     display: flex;
@@ -80,9 +80,18 @@
     stroke-width: 0;
   }
   .lower-graph{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid black;
+    border-radius: 0.2rem;
   }
+  .upper-graph-1{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin-right: 4px;
+  }
+  .upper-graph-2{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin-left: 4px;
+  }
+  
   
