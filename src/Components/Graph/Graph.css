@@ -1,0 +1,88 @@
+.display-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.select-postId{
+    text-align: center;
+}
+.post-label{
+    padding: 1rem;
+}
+.like-section {
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 2px;
+    width: 7rem;
+    text-align: center;
+  }
+  .like-section p{
+    font-weight: 700;
+  }
+  .comment-section {
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 2px;
+    width: 7rem;
+    text-align: center;
+  }
+  .comment-section p{
+    font-weight: 700;
+  }
+  .reach-section {
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 2px;
+    width: 7rem;
+    text-align: center;
+  }
+  .reach-section p{
+    font-weight: 700;
+  }
+  .share-section {
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 2px;
+    width: 7rem;
+    text-align: center;
+  }
+  .share-section p{
+    font-weight: 700;
+  }
+  .graph-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .upper-graph{
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .upper-graph-section1{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    outline: 1px;
+  }
+  .upper-graph-section2{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .highcharts-credits{
+    display: none;
+  }
+
+  .highcharts-grid-line{
+    stroke-width: 0;
+  }
+  .lower-graph{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,21 @@
+#layout{
+    margin-top: 0;
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: black;
+  }
+  .layout-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 800;
+  }
+  .layout-route{
+   font-size: medium;
+   font-weight: 500;
+  }

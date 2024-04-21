@@ -1,0 +1,19 @@
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.form-section label{
+    display: flex;
+    padding: 0.1rem;
+}
+.form-button{  
+    margin: 0.5rem;
+}
+.display-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
